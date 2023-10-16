@@ -1,0 +1,43 @@
+.footer {
+    background-color: $Dark-moderate-cyan;
+    color: $Dark-moderate-cyan;
+
+    .logo {
+        height: 100%;
+        width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        padding-top: 2em;
+        
+        > div {
+            position: unset !important;
+        }
+
+        img {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: 100% !important;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 3em;
+
+            li {
+                list-style: none;
+            }
+        }
+    }
+}
+
+@include desktop {
+    .footer {
+        
+    }
+}

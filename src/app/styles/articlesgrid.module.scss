@@ -1,0 +1,15 @@
+.articlesGrid {
+    .container {
+        display: grid;
+        grid-template-rows: 40vh 60vh 40vh 60vh 100vh 100vh;
+    }
+}
+
+@include desktop {
+    .articlesGrid {
+        .container {
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: repeat(3,50vw);
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+
+    .logo {
+        height: 100%;
+        width: 130px;
+        margin-top: 2em;
+        margin-left: 2em;
+        
+        > div {
+            position: unset !important;
+        }
+
+        img {
+            object-fit: contain;
+            width: 100% !important;
+            position: relative !important;
+            height: 100% !important;
+        }
+    }
+     
+    nav {
+        display: none;
+    }
+}
+
+@include desktop {
+    .header {
+        
+    }
+}
