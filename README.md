@@ -1,4 +1,6 @@
-# Frontend Mentor - Sunnyside agency landing page solution
+# Sunnyside agency landing page solution
+
+![desktop-preview](https://github.com/S-Christophe/sunnyside-agency-landing-page/assets/146188375/23893444-ce22-4eb3-b394-677f69cc46d1)
 
 This is a solution to the [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -30,14 +32,11 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
 - Next.js
 - TypeScript
 - Framer Motion
+- Mobile-first
+- CSS Grid
 
 ### Useful resources
 
