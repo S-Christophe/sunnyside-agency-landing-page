@@ -1,8 +1,8 @@
 [
 	{
     "_id": 1,
-		"bgImg": "/assets/images/mobile/image-transform.jpg",
-		"bgImgDesktop": "/assets/images/desktop/image-transform.jpg",
+		"bgImg": "./assets/images/mobile/image-transform.jpg",
+		"bgImgDesktop": "./assets/images/desktop/image-transform.jpg",
     "type": 1
 	},
   {
@@ -14,8 +14,8 @@
   },
 	{
     "_id": 3,
-		"bgImg": "/assets/images/mobile/image-stand-out.jpg",
-		"bgImgDesktop": "/assets/images/desktop/image-stand-out.jpg",
+		"bgImg": "./assets/images/mobile/image-stand-out.jpg",
+		"bgImgDesktop": "./assets/images/desktop/image-stand-out.jpg",
     "type": 1
 	},
   {
@@ -30,8 +30,8 @@
     "title": "Graphic Design",
     "description": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention.",
     "url": "#",
-		"bgImg": "/assets/images/mobile/image-graphic-design.jpg",
-		"bgImgDesktop": "/assets/images/desktop/image-graphic-design.jpg",
+		"bgImg": "./assets/images/mobile/image-graphic-design.jpg",
+		"bgImgDesktop": "./assets/images/desktop/image-graphic-design.jpg",
     "type": 3
   },
 	{
@@ -39,8 +39,8 @@
     "title": "Photography",
     "description": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image.",
     "url": "#",
-		"bgImg": "/assets/images/mobile/image-photography.jpg",
-		"bgImgDesktop": "/assets/images/desktop/image-photography.jpg",
+		"bgImg": "./assets/images/mobile/image-photography.jpg",
+		"bgImgDesktop": "./assets/images/desktop/image-photography.jpg",
     "type": 3
   }
 ]

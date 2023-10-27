@@ -2,19 +2,19 @@
     {
         "name": "Emily R.",
         "description": "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
-        "img": "/assets/images/image-emily.jpg",
+        "img": "./assets/images/image-emily.jpg",
         "job": "Marketing Director"
     },
     {
         "name": "Thomas S.",
         "description": "Sunnyside's enthusiasm coupled with their keen interest in our band's sucess made it a satisfying and enjoyable experience.",
-        "img": "/assets/images/image-thomas.jpg",
+        "img": "./assets/images/image-thomas.jpg",
         "job": "Chief Operating Officer"
     },
     {
         "name": "Jennie F.",
         "description": "Incredible end result ! Our sales increased over 400% when we worked with Sunnyside. Highly recommended !",
-        "img": "/assets/images/image-jennie.jpg",
+        "img": "./assets/images/image-jennie.jpg",
         "job": "Business Owner"
     }
 ]
