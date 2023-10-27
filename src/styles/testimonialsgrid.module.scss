@@ -1,0 +1,31 @@
+.testimonialsGrid {
+    padding-top: 4em;
+
+    h2 {
+        text-transform: uppercase;
+        font-family: $FrauncesBold;
+        font-size: 1rem;
+        letter-spacing: 0.2em;
+        color: $Grayish-blue;
+        text-align: center;
+        margin-bottom: 1.333em;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@include desktop {
+    .testimonialsGrid {
+        padding-top: 6em;
+        padding-bottom: 4em;
+
+        .container {
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+}

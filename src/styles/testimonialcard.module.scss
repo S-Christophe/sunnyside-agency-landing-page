@@ -1,0 +1,30 @@
+.testimonialCard {
+    padding: 2em;
+    text-align: center;
+
+    img {
+        margin-bottom: 2em;
+        border-radius: 50%;
+    }
+
+    .description {
+        margin-bottom: 2em;
+        font-family: $BarlowMedium;
+        line-height: 1.6em;
+        max-width: 40ch;
+        color: $Very-dark-desaturated-blue;
+    }
+
+    .name {
+        color: $Very-dark-desaturated-blue;
+        font-family: $FrauncesBold;
+        font-size: 1.1rem;
+        margin-bottom: 1em;
+    }
+
+    .job {
+        color: $Grayish-blue;
+        margin-bottom: 2em;
+        font-family: $BarlowMedium;
+    }
+}

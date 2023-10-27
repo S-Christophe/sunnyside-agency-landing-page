@@ -1,0 +1,52 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../public/assets/images/mobile/image-header.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+    h1 {
+        color: $White;
+        top: 25%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-family: $FrauncesExtraBold;
+    }
+
+    .img {
+        width: fit-content;
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 30%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@include desktop {
+    .hero {
+        background-image: url("../../public/assets/images/desktop/image-header.jpg");
+
+        .img {
+            bottom: 42%;
+        }
+    }
+}
+
+@include desktop-large {
+    .hero {
+        h1 {
+            font-size: calc(2.5rem + 0.390625vw);
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.footer {
+    background-color: $footer-background;
+    color: $Dark-moderate-cyan;
+
+    .logo {
+        width: fit-content;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 2em;
+        padding-top: 4em;
+
+        img {
+            filter: invert(51%) sepia(4%) saturate(5810%) hue-rotate(119deg) brightness(91%) contrast(60%);
+            width: 150px;
+            height: 100%;
+        }
+    }
+
+    nav {
+        margin-bottom: 5em;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 3em;
+
+            li {
+                list-style: none;
+                font-family: $BarlowMedium;
+            }
+        }
+    }
+
+    .socialNetworks {
+        display: flex;
+        padding-bottom: 4em;
+        justify-content: center;
+        gap: 2em;
+
+        .socialIcon {
+            height: 25px;
+            width: 25px;
+        }
+    }
+}
+
+@include desktop {
+    .footer {
+        nav ul li {
+            a {
+                &:hover {
+                    color: #fff
+                }
+            }
+        }
+    }
+}
+
+@include desktop-large {
+    .footer {
+        nav ul li {
+            font-size: calc(1rem + 0.390625vw);
+        }
+    }
+}

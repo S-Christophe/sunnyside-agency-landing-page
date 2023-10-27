@@ -1,0 +1,126 @@
+.item {
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    h2 {
+        font-family: $FrauncesBold;
+        font-size: 1.6rem;
+        margin-bottom: 2rem;
+        color: $Very-dark-desaturated-blue;
+    }
+
+    p {
+        font-family: $BarlowMedium;
+        color: $Very-dark-grayish-blue;
+        line-height: 1.6em;
+        max-width: 40ch;
+        margin-bottom: 1em;
+    }
+
+    a {
+        color: $Very-dark-desaturated-blue;
+        text-transform: uppercase;
+        font-family: $FrauncesBold;
+        display: block;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+
+        &:after {
+            transition: all ease-in-out .2s;
+            background-color: #000; // default
+            content: "";
+            display: block;
+            height: calc(1em/2);
+            width: 100%;
+            border-radius: 1em;
+            position: relative;
+            top: -0.3em;
+            z-index: -1;
+            opacity: 30%;
+        }
+    }
+}
+
+.soft-red {
+    a:after {
+        background-color: $Soft-red;
+    }
+}
+
+.yellow {
+    a:after {
+        background-color: $Yellow;
+    }
+}
+
+.item-3 {
+    justify-content: flex-end;
+}
+
+.photography {
+    h2 {
+        color: $Dark-blue;
+    }
+
+    p {
+        color: $Dark-blue;
+    }
+}
+
+.graphic-design {
+    h2 {
+        color: $Dark-desaturated-cyan;
+    }
+
+    p {
+        color: $Dark-desaturated-cyan;
+    }
+}
+
+@include desktop {
+    .item {
+        padding: 2em 4em;
+
+        a {
+            margin-left: 0;
+            margin-right: 0;
+
+            &:after {
+                width: 0;
+            }
+
+            &:hover::after {
+                width: 100%;
+            }
+        }
+    }
+
+    .yellow {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+
+    :where(.soft-red, .yellow) {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: initial !important;
+        align-items: initial !important;
+    }
+}
+
+@include desktop-large {
+    .item {
+        :where(h2, p) {
+            font-size: calc(1rem + 0.390625vw);
+        }
+    }
+}

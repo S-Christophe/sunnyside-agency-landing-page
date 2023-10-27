@@ -1,0 +1,132 @@
+.header {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    margin-top: 2em;
+    z-index: 1;
+
+    .logo {
+        margin-left: 2em;
+
+        img {
+            object-fit: contain;
+            height: 100%;
+            width: 130px;
+        }
+    }
+     
+    nav {
+        width: 90%;
+        transition: all 0.6s ease;
+        background-color: #fff;
+        position: absolute;
+        top: 5em;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        text-align: center;
+        z-index: 1;
+
+        .angle {
+            width: 0;
+            height: 0;
+            border-right:30px solid #fff;
+            border-top: 30px solid transparent;
+            position: absolute;
+            top: -30px;
+            right: 0;
+        }
+
+        ul {
+            li {
+                margin: 2.5em 0;
+                list-style: none;
+                color: $Dark-grayish-blue;
+                font-family: $BarlowMedium;
+            }
+
+            .contact {
+                color: $Very-dark-desaturated-blue;
+                font-family: $FrauncesBold;
+                text-transform: uppercase;
+                width: fit-content;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 1em 1.2em;
+                border-radius: 2em;
+                background-color: $Yellow;
+            }
+        }
+    }
+
+    .iconHamburger {
+        margin-left: auto;
+        margin-right: 2em;
+    }
+}
+
+@include desktop {
+    .header {
+        nav {
+            display: block !important;
+            opacity: 1 !important;
+            position: unset;
+            background-color: unset;
+            width: unset;
+            margin-left: auto;
+            margin-right: 2em;
+            margin-top: unset;
+            margin-bottom: unset;
+
+            .angle {
+                display: none;
+            }
+
+            ul {
+                display: flex;
+                gap: 4em;
+                align-items: center;
+
+                li {
+                    margin: unset;
+                    color: #fff;
+
+                    a {
+                        &:after {
+                            transition: all ease-in-out .2s;
+                            background-color: #fff; // default
+                            content: "";
+                            display: block;
+                            height: 3px;
+                            width: 0%;
+                        }
+
+                        &:hover:after {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .contact {
+                    background-color: #fff;
+                    transition: all 0.5s ease;
+
+                    a {
+                        &:after {
+                            display: none;
+                        }
+                    }
+                    
+                    &:hover {
+                        color: #fff;
+                        background-color: rgba($color: #ffffff, $alpha: 0.3);
+                    }
+                }
+            }
+        }
+
+        .iconHamburger {
+            display: none;
+        }
+    }
+}

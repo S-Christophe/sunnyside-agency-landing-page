@@ -1,0 +1,15 @@
+.imgGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    .imgItem {
+        position: relative;
+        aspect-ratio: 1;
+    }
+}
+
+@include desktop {
+    .imgGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
