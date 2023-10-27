@@ -36,6 +36,7 @@ Users should be able to:
 - Framer Motion
 - Mobile-first
 - CSS Grid
+- Sass / Scss
 
 ### Useful resources
 
