@@ -25,7 +25,7 @@ export default function ImgGrid() {
         className={styles.imgItem}
       >
 			  <Image
-          src="/assets/images/mobile/image-gallery-milkbottles.jpg"
+          src="./assets/images/mobile/image-gallery-milkbottles.jpg"
           alt="milkbottles"
           fill
           sizes="(max-width: 62rem) 50vw, 25vw"
@@ -36,7 +36,7 @@ export default function ImgGrid() {
         className={styles.imgItem}
       >
 			  <Image
-          src="/assets/images/mobile/image-gallery-orange.jpg"
+          src="./assets/images/mobile/image-gallery-orange.jpg"
           alt="orange"
           fill
           sizes="(max-width: 62rem) 50vw, 25vw"
@@ -47,7 +47,7 @@ export default function ImgGrid() {
         className={styles.imgItem}
       >
 			  <Image
-          src="/assets/images/mobile/image-gallery-cone.jpg"
+          src="./assets/images/mobile/image-gallery-cone.jpg"
           alt="cone"
           fill
           sizes="(max-width: 62rem) 50vw, 25vw"
@@ -58,7 +58,7 @@ export default function ImgGrid() {
         className={styles.imgItem}
       >
 			  <Image
-          src="/assets/images/mobile/image-gallery-sugar-cubes.jpg"
+          src="./assets/images/mobile/image-gallery-sugar-cubes.jpg"
           alt="sugar cubes"
           fill
           sizes="(max-width: 62rem) 50vw, 25vw"
