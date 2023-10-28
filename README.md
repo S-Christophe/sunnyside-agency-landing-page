@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://s-christophe.github.io/sunnyside-agency-landing-page/](https://s-christophe.github.io/sunnyside-agency-landing-page/)
 
 ## My process
 
@@ -37,6 +36,7 @@ Users should be able to:
 - Framer Motion
 - Mobile-first
 - CSS Grid
+- Sass / Scss
 
 ### Useful resources
 
